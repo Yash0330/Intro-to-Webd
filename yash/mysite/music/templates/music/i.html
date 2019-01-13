@@ -1,0 +1,10 @@
+{% extends 'music\base.html' %}
+
+{% block body %}
+    <ul>
+        {% for album in object_list %}
+            <li>{{ album.album_logo }}</li>
+            <li><a href="/music/{{ album.id }}/">{{ album.album_title }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

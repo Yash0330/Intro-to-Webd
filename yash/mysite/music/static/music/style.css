@@ -1,0 +1,11 @@
+ body{
+     background: aliceblue;
+ }
+
+ .navbar{
+     border-radius: 0;
+ }
+
+ .navbar-brand{
+     font-family: 'Freestyle Script', cursive;
+ }
